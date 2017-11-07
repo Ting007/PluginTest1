@@ -13,7 +13,6 @@ import org.joda.time.TestPartial_Basics;
 import org.joda.time.TestDateTimeComparator;
 import org.joda.time.TestLocalDateTime_Constructors;
 import org.joda.time.TestPartial_Match;
-// import org.joda.time.ClassLoadTest;
 import org.joda.time.TestLocalDateTime_Properties;
 import org.joda.time.TestStringConvert;
 import org.joda.time.TestMutableDateTime_Basics;
@@ -143,7 +142,6 @@ import org.joda.time.convert.TestLongConverter;
 	TestDateTimeComparator.class,
 	TestLocalDateTime_Constructors.class,
 	TestPartial_Match.class,
-	// ClassLoadTest.class,
 	TestLocalDateTime_Properties.class,
 	TestStringConvert.class,
 	TestMutableDateTime_Basics.class,
@@ -257,8 +255,7 @@ import org.joda.time.convert.TestLongConverter;
 	TestStringConverter.class,
 	TestCalendarConverter.class,
 	TestReadablePartialConverter.class,
-	TestLongConverter.class,
-
+	TestLongConverter.class
 })
 
 public class TestAllPackages {
